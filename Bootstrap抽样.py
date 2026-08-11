@@ -10,7 +10,7 @@ print(f"原始数据: {accuracy}")
 print(f"原始均值: {np.mean(accuracy):.4f}\n")
 
 # ===================== 2. Bootstrap抽样 =====================
-n_iterations = 10000   # 重复抽样次数
+n_iterations = 100000   # 重复抽样次数
 n_samples = len(accuracy)  # 每次抽样的样本量（与原数据集相同）
 bootstrap_means = []   # 存储每次抽样的均值
 
