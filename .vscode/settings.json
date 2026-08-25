@@ -1,4 +1,24 @@
 {
     "python-envs.defaultEnvManager": "ms-python.python:conda",
-    "python-envs.defaultPackageManager": "ms-python.python:conda"
+    "python-envs.defaultPackageManager": "ms-python.python:conda",
+    // 禁用输入时的建议弹窗 (IntelliSense)
+    // 禁用输入时的建议弹窗 (IntelliSense)
+    "editor.quickSuggestions": {
+        "other": "off",
+        "comments": "off",
+        "strings": "off"
+    },
+    // 禁用触发字符（如输入 '.' 或 '(' 时触发的建议）
+    "editor.suggestOnTriggerCharacters": false,
+    // 禁用 Tab 键补全
+    "editor.tabCompletion": "off",
+    // 禁用基于单词的补全
+    "editor.wordBasedSuggestions": "off",
+    // 禁用函数参数提示弹窗
+    "editor.parameterHints.enabled": false,
+    // 禁用内联补全 / AI 灰色建议 (如 Copilot, Tabnine 等)
+    "editor.inlineSuggest.enabled": false,
+    // 禁用在输入时自动插入匹配的括号或引号
+    "editor.autoClosingBrackets": "never",
+    "editor.autoClosingQuotes": "never"
 }
