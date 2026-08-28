@@ -12,3 +12,9 @@ class Solution:
             return True
         else:
             return False
+
+# 优化
+class Solution:
+    def isPalindrome(self, x: int) -> bool:
+        s = str(x)
+        return s == s[::-1]
